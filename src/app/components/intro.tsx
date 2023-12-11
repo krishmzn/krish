@@ -16,7 +16,7 @@ export default function Intro() {
 
             <div className="flex flex-col w-3/5 justify-center align-middle gap-3">
                 <h2 className="font-black text-8xl tracking-tighter">Full-Stack <br /> Developer.</h2>
-                <p className="text-1xl tracking-widest">I Craft solid scalable full-stack applications and websites with great</p>
+                <p className="text-1xl tracking-widest">I Craft solid scalable full-stack applications or websites using various technologies</p>
             </div>
         </div>
     )
