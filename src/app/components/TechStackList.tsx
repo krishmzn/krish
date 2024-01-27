@@ -1,5 +1,5 @@
 import Image from "next/image";
-import VidCard from "./Vidcard";
+import VidCard from "./vidcard";
 
 interface TechListType {
   techName: string;
