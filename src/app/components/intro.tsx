@@ -1,17 +1,17 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function Intro() {
     return (
-        <div className="flex flex-row-reverse gap-5 mx-auto w-fit h-[800px] justify-center align-middle px-20">
+        <div className="flex flex-row-reverse gap-5 mx-auto w-fit min-h-screen justify-center align-middle px-20">
             <div className="w-2/5 rounded-full m-auto">
-            <Image
-              src="/krish.jpg"
-              alt='krish'
-              width={500}
-              height={50}
-              priority
-              className="rounded-full"
-              />
+                <Image
+                    src="/krish.jpg"
+                    alt='krish'
+                    width={500}
+                    height={50}
+                    priority
+                    className="rounded-full"
+                />
             </div>
 
             <div className="flex flex-col w-3/5 justify-center align-middle gap-3">
