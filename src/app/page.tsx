@@ -1,5 +1,5 @@
-import Card from './components/card'
-import Intro from './components/intro'
+import Card from './components/Vidcard'
+import Intro from './components/Intro'
 import TechStackList from './components/TechStackList'
 
 export default function Home() {
@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <Intro></Intro>
       <TechStackList></TechStackList>
-      <Card></Card>
     </>
   )
 }
