@@ -1,6 +1,5 @@
-import Card from './components/Vidcard'
-import Intro from './components/Intro'
-import TechStackList from './components/TechStackList'
+import Intro from './components/intro'
+import TechStackList from './components/techStackList'
 
 export default function Home() {
   return (
